@@ -1,7 +1,7 @@
 # SimpleFlashRom
 An ANSI terminal based flash programmer, use to program flash memories used as ROMs in old computers.
 
-## Descrption
+## Description
 For many people is fun to experiment with old computers and explore possibilities that were impratical in the past days.
 
 One of these is rom upgrade, an example is the [Atari ST](https://en.wikipedia.org/wiki/Atari_ST).
