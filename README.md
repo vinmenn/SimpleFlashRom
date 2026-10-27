@@ -85,7 +85,23 @@ If you use normal Mega + external card sd standard libraries should work (not te
 * Copy your rom files into sd with specific path (default is /rom).
 * Insert card into reader and power up board
 * After connection you could connect through serial port with a terminal software compatible with ANSI codes (putty or similar)
-  
+
+##  Example of use
+With a sd inserted with 4 files saved in /rom folder use these steps to program flash chip.
+Arduino is connected to PC and terminal as putty is connected on serial port with parameters 115200 1N8
+All commands are followed by <return>
+1. press return to show main screen
+2. press __<i>__ to have flash info. If flash is connected correctly screen should show chip brand and type
+3. press __<f>__ to scan rom files into sd
+4. press __<m>__ to select program mode (default = all bytes, 1 = odd bytes, 2 even bytes)
+5. if flash chip is not empty press __e__ to erase the chip
+6. press __<P>__ to program entire chip (several minutes to finish program)
+7. press __<V>__ to verify chip (if any location differ from corrispondent byte, log will show in red)
+8. if you need differentiation for odd/even bytes, repeat steps 4-7 with another chip
+
+9. enjoy your brand new programmed flash chips !
+
+
 
 
 
